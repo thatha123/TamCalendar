@@ -21,8 +21,8 @@
 
 static const int contentLefMagin = 20;//内容里的左右间距
 
-static const CGFloat TopMargin = 40;//距离屏幕上下的距离
-static const CGFloat LeftMargin = 20;//距离屏幕左右的距离
+static const int TopMargin = 40;//距离屏幕上下的距离
+static const int LeftMargin = 20;//距离屏幕左右的距离
 
 static const int row = 13;//3+2+7+1
 
