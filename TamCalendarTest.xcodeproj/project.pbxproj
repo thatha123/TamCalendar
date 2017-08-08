@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1819630F1F3869C800718CA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819630E1F3869C800718CA3 /* main.m */; };
+		181963121F3869C800718CA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181963111F3869C800718CA3 /* AppDelegate.m */; };
+		181963151F3869C800718CA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181963141F3869C800718CA3 /* ViewController.m */; };
+		181963181F3869C800718CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181963161F3869C800718CA3 /* Main.storyboard */; };
+		1819631A1F3869C800718CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181963191F3869C800718CA3 /* Assets.xcassets */; };
+		1819631D1F3869C800718CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1819631B1F3869C800718CA3 /* LaunchScreen.storyboard */; };
+		181963281F3869C800718CA3 /* TamCalendarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181963271F3869C800718CA3 /* TamCalendarTestTests.m */; };
+		181963331F3869C800718CA3 /* TamCalendarTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181963321F3869C800718CA3 /* TamCalendarTestUITests.m */; };
+		1819634B1F3869DB00718CA3 /* TamDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181963431F3869DB00718CA3 /* TamDate.m */; };
+		1819634C1F3869DB00718CA3 /* TamMonthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 181963451F3869DB00718CA3 /* TamMonthModel.m */; };
+		1819634D1F3869DB00718CA3 /* TamCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 181963481F3869DB00718CA3 /* TamCalendar.m */; };
+		1819634E1F3869DB00718CA3 /* TamLeftAndRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819634A1F3869DB00718CA3 /* TamLeftAndRightView.m */; };
+		181963561F386A6600718CA3 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 181963501F386A6600718CA3 /* left.png */; };
+		181963571F386A6600718CA3 /* left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181963511F386A6600718CA3 /* left@2x.png */; };
+		181963581F386A6600718CA3 /* left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181963521F386A6600718CA3 /* left@3x.png */; };
+		181963591F386A6600718CA3 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 181963531F386A6600718CA3 /* right.png */; };
+		1819635A1F386A6600718CA3 /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181963541F386A6600718CA3 /* right@2x.png */; };
+		1819635B1F386A6600718CA3 /* right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181963551F386A6600718CA3 /* right@3x.png */; };
+		1819635E1F386BCF00718CA3 /* TamBgkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819635D1F386BCF00718CA3 /* TamBgkView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181963241F3869C800718CA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181963021F3869C800718CA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181963091F3869C800718CA3;
+			remoteInfo = TamCalendarTest;
+		};
+		1819632F1F3869C800718CA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181963021F3869C800718CA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181963091F3869C800718CA3;
+			remoteInfo = TamCalendarTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1819630A1F3869C800718CA3 /* TamCalendarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamCalendarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1819630E1F3869C800718CA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181963101F3869C800718CA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181963111F3869C800718CA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181963131F3869C800718CA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181963141F3869C800718CA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181963171F3869C800718CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181963191F3869C800718CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1819631C1F3869C800718CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1819631E1F3869C800718CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181963231F3869C800718CA3 /* TamCalendarTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamCalendarTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181963271F3869C800718CA3 /* TamCalendarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamCalendarTestTests.m; sourceTree = "<group>"; };
+		181963291F3869C800718CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1819632E1F3869C800718CA3 /* TamCalendarTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamCalendarTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181963321F3869C800718CA3 /* TamCalendarTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamCalendarTestUITests.m; sourceTree = "<group>"; };
+		181963341F3869C800718CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181963421F3869DB00718CA3 /* TamDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TamDate.h; sourceTree = "<group>"; };
+		181963431F3869DB00718CA3 /* TamDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TamDate.m; sourceTree = "<group>"; };
+		181963441F3869DB00718CA3 /* TamMonthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TamMonthModel.h; sourceTree = "<group>"; };
+		181963451F3869DB00718CA3 /* TamMonthModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TamMonthModel.m; sourceTree = "<group>"; };
+		181963471F3869DB00718CA3 /* TamCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TamCalendar.h; sourceTree = "<group>"; };
+		181963481F3869DB00718CA3 /* TamCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TamCalendar.m; sourceTree = "<group>"; };
+		181963491F3869DB00718CA3 /* TamLeftAndRightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TamLeftAndRightView.h; sourceTree = "<group>"; };
+		1819634A1F3869DB00718CA3 /* TamLeftAndRightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TamLeftAndRightView.m; sourceTree = "<group>"; };
+		181963501F386A6600718CA3 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		181963511F386A6600718CA3 /* left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left@2x.png"; sourceTree = "<group>"; };
+		181963521F386A6600718CA3 /* left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left@3x.png"; sourceTree = "<group>"; };
+		181963531F386A6600718CA3 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		181963541F386A6600718CA3 /* right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right@2x.png"; sourceTree = "<group>"; };
+		181963551F386A6600718CA3 /* right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right@3x.png"; sourceTree = "<group>"; };
+		1819635C1F386BCF00718CA3 /* TamBgkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TamBgkView.h; sourceTree = "<group>"; };
+		1819635D1F386BCF00718CA3 /* TamBgkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TamBgkView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181963071F3869C800718CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181963201F3869C800718CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1819632B1F3869C800718CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181963011F3869C800718CA3 = {
+			isa = PBXGroup;
+			children = (
+				1819630C1F3869C800718CA3 /* TamCalendarTest */,
+				181963261F3869C800718CA3 /* TamCalendarTestTests */,
+				181963311F3869C800718CA3 /* TamCalendarTestUITests */,
+				1819630B1F3869C800718CA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1819630B1F3869C800718CA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1819630A1F3869C800718CA3 /* TamCalendarTest.app */,
+				181963231F3869C800718CA3 /* TamCalendarTestTests.xctest */,
+				1819632E1F3869C800718CA3 /* TamCalendarTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1819630C1F3869C800718CA3 /* TamCalendarTest */ = {
+			isa = PBXGroup;
+			children = (
+				181963401F3869DB00718CA3 /* TamCalendar */,
+				181963101F3869C800718CA3 /* AppDelegate.h */,
+				181963111F3869C800718CA3 /* AppDelegate.m */,
+				181963131F3869C800718CA3 /* ViewController.h */,
+				181963141F3869C800718CA3 /* ViewController.m */,
+				181963161F3869C800718CA3 /* Main.storyboard */,
+				181963191F3869C800718CA3 /* Assets.xcassets */,
+				1819631B1F3869C800718CA3 /* LaunchScreen.storyboard */,
+				1819631E1F3869C800718CA3 /* Info.plist */,
+				1819630D1F3869C800718CA3 /* Supporting Files */,
+			);
+			path = TamCalendarTest;
+			sourceTree = "<group>";
+		};
+		1819630D1F3869C800718CA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1819630E1F3869C800718CA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181963261F3869C800718CA3 /* TamCalendarTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				181963271F3869C800718CA3 /* TamCalendarTestTests.m */,
+				181963291F3869C800718CA3 /* Info.plist */,
+			);
+			path = TamCalendarTestTests;
+			sourceTree = "<group>";
+		};
+		181963311F3869C800718CA3 /* TamCalendarTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				181963321F3869C800718CA3 /* TamCalendarTestUITests.m */,
+				181963341F3869C800718CA3 /* Info.plist */,
+			);
+			path = TamCalendarTestUITests;
+			sourceTree = "<group>";
+		};
+		181963401F3869DB00718CA3 /* TamCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				1819634F1F386A6600718CA3 /* Resources */,
+				181963411F3869DB00718CA3 /* Model */,
+				181963461F3869DB00718CA3 /* View */,
+			);
+			path = TamCalendar;
+			sourceTree = "<group>";
+		};
+		181963411F3869DB00718CA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				181963421F3869DB00718CA3 /* TamDate.h */,
+				181963431F3869DB00718CA3 /* TamDate.m */,
+				181963441F3869DB00718CA3 /* TamMonthModel.h */,
+				181963451F3869DB00718CA3 /* TamMonthModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		181963461F3869DB00718CA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				181963471F3869DB00718CA3 /* TamCalendar.h */,
+				181963481F3869DB00718CA3 /* TamCalendar.m */,
+				181963491F3869DB00718CA3 /* TamLeftAndRightView.h */,
+				1819634A1F3869DB00718CA3 /* TamLeftAndRightView.m */,
+				1819635C1F386BCF00718CA3 /* TamBgkView.h */,
+				1819635D1F386BCF00718CA3 /* TamBgkView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1819634F1F386A6600718CA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				181963501F386A6600718CA3 /* left.png */,
+				181963511F386A6600718CA3 /* left@2x.png */,
+				181963521F386A6600718CA3 /* left@3x.png */,
+				181963531F386A6600718CA3 /* right.png */,
+				181963541F386A6600718CA3 /* right@2x.png */,
+				181963551F386A6600718CA3 /* right@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181963091F3869C800718CA3 /* TamCalendarTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181963371F3869C800718CA3 /* Build configuration list for PBXNativeTarget "TamCalendarTest" */;
+			buildPhases = (
+				181963061F3869C800718CA3 /* Sources */,
+				181963071F3869C800718CA3 /* Frameworks */,
+				181963081F3869C800718CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TamCalendarTest;
+			productName = TamCalendarTest;
+			productReference = 1819630A1F3869C800718CA3 /* TamCalendarTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181963221F3869C800718CA3 /* TamCalendarTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1819633A1F3869C800718CA3 /* Build configuration list for PBXNativeTarget "TamCalendarTestTests" */;
+			buildPhases = (
+				1819631F1F3869C800718CA3 /* Sources */,
+				181963201F3869C800718CA3 /* Frameworks */,
+				181963211F3869C800718CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181963251F3869C800718CA3 /* PBXTargetDependency */,
+			);
+			name = TamCalendarTestTests;
+			productName = TamCalendarTestTests;
+			productReference = 181963231F3869C800718CA3 /* TamCalendarTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1819632D1F3869C800718CA3 /* TamCalendarTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1819633D1F3869C800718CA3 /* Build configuration list for PBXNativeTarget "TamCalendarTestUITests" */;
+			buildPhases = (
+				1819632A1F3869C800718CA3 /* Sources */,
+				1819632B1F3869C800718CA3 /* Frameworks */,
+				1819632C1F3869C800718CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181963301F3869C800718CA3 /* PBXTargetDependency */,
+			);
+			name = TamCalendarTestUITests;
+			productName = TamCalendarTestUITests;
+			productReference = 1819632E1F3869C800718CA3 /* TamCalendarTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181963021F3869C800718CA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "涂怀安";
+				TargetAttributes = {
+					181963091F3869C800718CA3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 975CCKKA59;
+						ProvisioningStyle = Automatic;
+					};
+					181963221F3869C800718CA3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 975CCKKA59;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 181963091F3869C800718CA3;
+					};
+					1819632D1F3869C800718CA3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 975CCKKA59;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 181963091F3869C800718CA3;
+					};
+				};
+			};
+			buildConfigurationList = 181963051F3869C800718CA3 /* Build configuration list for PBXProject "TamCalendarTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181963011F3869C800718CA3;
+			productRefGroup = 1819630B1F3869C800718CA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181963091F3869C800718CA3 /* TamCalendarTest */,
+				181963221F3869C800718CA3 /* TamCalendarTestTests */,
+				1819632D1F3869C800718CA3 /* TamCalendarTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181963081F3869C800718CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1819631D1F3869C800718CA3 /* LaunchScreen.storyboard in Resources */,
+				1819631A1F3869C800718CA3 /* Assets.xcassets in Resources */,
+				1819635B1F386A6600718CA3 /* right@3x.png in Resources */,
+				181963581F386A6600718CA3 /* left@3x.png in Resources */,
+				181963571F386A6600718CA3 /* left@2x.png in Resources */,
+				181963561F386A6600718CA3 /* left.png in Resources */,
+				181963181F3869C800718CA3 /* Main.storyboard in Resources */,
+				181963591F386A6600718CA3 /* right.png in Resources */,
+				1819635A1F386A6600718CA3 /* right@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181963211F3869C800718CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1819632C1F3869C800718CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181963061F3869C800718CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1819635E1F386BCF00718CA3 /* TamBgkView.m in Sources */,
+				1819634B1F3869DB00718CA3 /* TamDate.m in Sources */,
+				1819634C1F3869DB00718CA3 /* TamMonthModel.m in Sources */,
+				181963151F3869C800718CA3 /* ViewController.m in Sources */,
+				181963121F3869C800718CA3 /* AppDelegate.m in Sources */,
+				1819634D1F3869DB00718CA3 /* TamCalendar.m in Sources */,
+				1819634E1F3869DB00718CA3 /* TamLeftAndRightView.m in Sources */,
+				1819630F1F3869C800718CA3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1819631F1F3869C800718CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181963281F3869C800718CA3 /* TamCalendarTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1819632A1F3869C800718CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181963331F3869C800718CA3 /* TamCalendarTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181963251F3869C800718CA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181963091F3869C800718CA3 /* TamCalendarTest */;
+			targetProxy = 181963241F3869C800718CA3 /* PBXContainerItemProxy */;
+		};
+		181963301F3869C800718CA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181963091F3869C800718CA3 /* TamCalendarTest */;
+			targetProxy = 1819632F1F3869C800718CA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181963161F3869C800718CA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181963171F3869C800718CA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1819631B1F3869C800718CA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1819631C1F3869C800718CA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181963351F3869C800718CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181963361F3869C800718CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181963381F3869C800718CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamCalendarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamCalendarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		181963391F3869C800718CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamCalendarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamCalendarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1819633B1F3869C800718CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamCalendarTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamCalendarTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamCalendarTest.app/TamCalendarTest";
+			};
+			name = Debug;
+		};
+		1819633C1F3869C800718CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamCalendarTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamCalendarTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamCalendarTest.app/TamCalendarTest";
+			};
+			name = Release;
+		};
+		1819633E1F3869C800718CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamCalendarTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamCalendarTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TamCalendarTest;
+			};
+			name = Debug;
+		};
+		1819633F1F3869C800718CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamCalendarTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamCalendarTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TamCalendarTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181963051F3869C800718CA3 /* Build configuration list for PBXProject "TamCalendarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181963351F3869C800718CA3 /* Debug */,
+				181963361F3869C800718CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181963371F3869C800718CA3 /* Build configuration list for PBXNativeTarget "TamCalendarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181963381F3869C800718CA3 /* Debug */,
+				181963391F3869C800718CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1819633A1F3869C800718CA3 /* Build configuration list for PBXNativeTarget "TamCalendarTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1819633B1F3869C800718CA3 /* Debug */,
+				1819633C1F3869C800718CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1819633D1F3869C800718CA3 /* Build configuration list for PBXNativeTarget "TamCalendarTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1819633E1F3869C800718CA3 /* Debug */,
+				1819633F1F3869C800718CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181963021F3869C800718CA3 /* Project object */;
+}
