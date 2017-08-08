@@ -12,6 +12,7 @@
 @interface ViewController ()
 
 @property(nonatomic,strong)NSDate *currentDate;
+@property (weak, nonatomic) IBOutlet UIButton *dateBtn;
 
 @end
 
@@ -21,17 +22,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.currentDate = [NSDate date];
+    [self.dateBtn setTitle:[TamDate getyyyyMMddWithDate:self.currentDate] forState:UIControlStateNormal];
 }
 
-
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-{
+- (IBAction)selDateAction:(id)sender {
     [TamCalendar showCalendarDefDate:self.currentDate passDateBlock:^(NSDate *date) {
         self.currentDate = date;
         NSString *dateStr = [TamDate getyyyyMMddWithDate:date];
-        NSLog(@"%@",dateStr);
+        [sender setTitle:dateStr forState:UIControlStateNormal];
     }];
-
 }
+
 
 @end

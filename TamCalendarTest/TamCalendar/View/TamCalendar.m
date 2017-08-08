@@ -31,10 +31,8 @@ static const int row = 13;//3+2+7+1
 #define UserTopMargin MAX(TopMargin,(TamScreenH-row*UserOneRowH)/2)//上下屏幕间距
 
 @interface TamCalendar()<UICollectionViewDelegate,UICollectionViewDataSource,TamCalendarCollectionViewCellDelegate,TamLeftAndRightViewDelegate,UIPickerViewDelegate,UIPickerViewDataSource>
-//,UITableViewDelegate,UITableViewDataSource
 
 @property(nonatomic,strong)UICollectionView *collectionView;
-//@property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)UIPickerView *pickerView;
 
 @property(nonatomic,strong)UIButton *yearBtn;
@@ -181,21 +179,7 @@ static TamCalendar *_tamCalendar;
     collectionView.dataSource = self;
     [collectionView registerClass:[TamCalendarCollectionViewCell class] forCellWithReuseIdentifier:cellID];
     [self addSubview:collectionView];
-    
-//    UITableView *tableView = [[UITableView alloc]init];
-//    self.tableView = tableView;
-//    tableView.hidden = YES;
-//    tableView.delegate = self;
-//    tableView.dataSource = self;
-//    [UITableView setTableViewComm:tableView];
-//    tableView.showsVerticalScrollIndicator = NO;
-//    [self addSubview:tableView];
-//    [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.left.and.right.equalTo(leftAndRightView);
-//        make.top.equalTo(leftAndRightView.mas_top).offset(-UserOneRowH/2);
-//        make.height.mas_offset(9*UserOneRowH);
-//    }];
-//    [tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:YES scrollPosition:UITableViewScrollPositionTop];
+
     UIPickerView *pickerView = [[UIPickerView alloc]init];
     self.pickerView = pickerView;
     pickerView.hidden = YES;
@@ -226,7 +210,6 @@ static TamCalendar *_tamCalendar;
 
 -(void)clickYearBtn:(UIButton *)sender
 {
-//    self.tableView.hidden = NO;
     self.pickerView.hidden = NO;
     self.collectionView.hidden = YES;
     self.leftAndRightView.hidden = YES;
@@ -237,7 +220,6 @@ static TamCalendar *_tamCalendar;
 
 -(void)clickMonthBtn:(UIButton *)sender
 {
-//    self.tableView.hidden = YES;
     self.pickerView.hidden = YES;
     self.collectionView.hidden = NO;
     self.leftAndRightView.hidden = NO;
@@ -310,33 +292,6 @@ static TamCalendar *_tamCalendar;
 
     [self clickMonthBtn:nil];
 }
-
-//#pragma mark - UITableViewDataSource
-//-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-//{
-//    return 1;
-//}
-//
-//-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-//{
-//    return 100;
-//}
-//
-//-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    TamCalendarTableViewCell *cell = [TamCalendarTableViewCell calendarTableViewCellWithTableView:tableView];
-//    cell.label.text = [NSString stringWithFormat:@"%ld",[TamDate getyyyyWithDate:[NSDate date]]+indexPath.row];
-//    return cell;
-//}
-//
-//-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    [tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
-//    self.tempDate = [TamDate dateOfYear:[TamDate getyyyyWithDate:[NSDate date]]+indexPath.row tempDate:self.tempDate];
-//    [self getDataDayModel];
-//    
-//    [self clickMonthBtn:nil];
-//}
 
 #pragma mark - UICollectionViewDataSource
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView

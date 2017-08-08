@@ -11,4 +11,3 @@ Pod::Spec.new do |s|
     s.resource      =  'TamCalendarTest/TamCalendar/Resources'
     s.requires_arc  =  true
 end
-
