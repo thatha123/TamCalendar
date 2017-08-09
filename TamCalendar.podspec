@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.license       =  'MIT'
     s.authors       = {'Tam' => '1558842407@qq.com'}
     s.platform      =  :ios,'8.0'
-    s.source        = {:git => 'https://github.com/thatha123/TamCalendar.git',:tag => s.version}
+    s.source        = {:git => 'https://github.com/thatha123/TamCalendar.git',:tag => "v#{s.version}" }
     s.source_files  =  'TamCalendarTest/TamCalendar/**/*.{h,m}'
     s.resource      =  'TamCalendarTest/TamCalendar/Resources'
     s.requires_arc  =  true

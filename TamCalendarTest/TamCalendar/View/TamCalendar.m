@@ -114,7 +114,7 @@ static TamCalendar *_tamCalendar;
             day++;
         }
     }
-    [self.yearBtn setTitle:[NSString stringWithFormat:@"%ld",[TamDate getyyyyWithDate:self.selDate]] forState:UIControlStateNormal];
+    [self.yearBtn setTitle:[NSString stringWithFormat:@"%d",(int)[TamDate getyyyyWithDate:self.selDate]] forState:UIControlStateNormal];
     self.leftAndRightView.label.text = [TamDate getyyyyMMWithDate:self.tempDate];
     [self.monthBtn setTitle:[NSString stringWithFormat:@"%@ %@",[TamDate getMMddWithDate:self.selDate],[TamDate weekStringWithDate:self.selDate]] forState:UIControlStateNormal];
     [self.collectionView reloadData];
@@ -271,7 +271,7 @@ static TamCalendar *_tamCalendar;
 
 - (NSAttributedString *)pickerView:(UIPickerView *)pickerView attributedTitleForRow:(NSInteger)row forComponent:(NSInteger)component
 {
-    NSMutableAttributedString *mutAttStr = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%ld",[TamDate getyyyyWithDate:[NSDate date]]+row-99]];
+    NSMutableAttributedString *mutAttStr = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%d",(int)[TamDate getyyyyWithDate:[NSDate date]]+row-99]];
     NSInteger selRow = [pickerView selectedRowInComponent:0];
     if (selRow == row) {
         [mutAttStr addAttribute:NSForegroundColorAttributeName value:TamMainThemeColor range:NSMakeRange(0, mutAttStr.length)];
@@ -345,7 +345,7 @@ static TamCalendar *_tamCalendar;
         monthModel.isSelectedDay = YES;
         self.selDate = [TamDate dateOfDay:monthModel.dayValue tempDate:self.tempDate];
 //        [self getDataDayModel];
-        [self.yearBtn setTitle:[NSString stringWithFormat:@"%ld",[TamDate getyyyyWithDate:self.selDate]] forState:UIControlStateNormal];
+        [self.yearBtn setTitle:[NSString stringWithFormat:@"%d",(int)[TamDate getyyyyWithDate:self.selDate]] forState:UIControlStateNormal];
         [self.monthBtn setTitle:[NSString stringWithFormat:@"%@ %@",[TamDate getMMddWithDate:self.selDate],[TamDate weekStringWithDate:self.selDate]] forState:UIControlStateNormal];
         [self.collectionView reloadData];
     }
