@@ -271,7 +271,7 @@ static TamCalendar *_tamCalendar;
 
 - (NSAttributedString *)pickerView:(UIPickerView *)pickerView attributedTitleForRow:(NSInteger)row forComponent:(NSInteger)component
 {
-    NSMutableAttributedString *mutAttStr = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%d",(int)[TamDate getyyyyWithDate:[NSDate date]]+row-99]];
+    NSMutableAttributedString *mutAttStr = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%d",(int)([TamDate getyyyyWithDate:[NSDate date]])+(int)row-99]];
     NSInteger selRow = [pickerView selectedRowInComponent:0];
     if (selRow == row) {
         [mutAttStr addAttribute:NSForegroundColorAttributeName value:TamMainThemeColor range:NSMakeRange(0, mutAttStr.length)];
@@ -387,7 +387,7 @@ static TamCalendar *_tamCalendar;
 -(void)setMonthModel:(TamMonthModel *)monthModel
 {
     _monthModel = monthModel;
-    [self.button setTitle:[NSString stringWithFormat:@"%02ld",_monthModel.dayValue] forState:UIControlStateNormal];
+    [self.button setTitle:[NSString stringWithFormat:@"%02zd",_monthModel.dayValue] forState:UIControlStateNormal];
     if (_monthModel.isSelectedDay) {
         [self.button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [self.button setBackgroundColor:TamMainThemeColor];
