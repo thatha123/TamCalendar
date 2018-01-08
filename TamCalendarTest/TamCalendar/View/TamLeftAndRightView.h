@@ -17,7 +17,7 @@
 
 @interface TamLeftAndRightView : UIView
 
-@property(nonatomic,strong)id<TamLeftAndRightViewDelegate> delegate;
-@property(nonatomic,strong)UILabel *label;
+@property(nonatomic,weak)id<TamLeftAndRightViewDelegate> delegate;
+@property(nonatomic,weak)UILabel *label;
 
 @end

@@ -10,8 +10,8 @@
 
 @interface TamLeftAndRightView()
 
-@property(nonatomic,strong)UIButton *leftBtn;
-@property(nonatomic,strong)UIButton *rightBtn;
+@property(nonatomic,weak)UIButton *leftBtn;
+@property(nonatomic,weak)UIButton *rightBtn;
 
 @end
 

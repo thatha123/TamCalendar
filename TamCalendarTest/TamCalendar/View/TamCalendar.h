@@ -35,7 +35,7 @@ typedef void(^PassDateBlock)(NSDate *date);
 @interface TamCalendarCollectionViewCell : UICollectionViewCell
 
 @property(nonatomic,strong)TamCalendarButton *button;
-@property(nonatomic,strong)id<TamCalendarCollectionViewCellDelegate> delegate;
+@property(nonatomic,weak)id<TamCalendarCollectionViewCellDelegate> delegate;
 @property(nonatomic,strong)TamMonthModel *monthModel;
 
 @end

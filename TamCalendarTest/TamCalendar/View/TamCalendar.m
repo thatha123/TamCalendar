@@ -32,12 +32,12 @@ static const int row = 13;//3+2+7+1
 
 @interface TamCalendar()<UICollectionViewDelegate,UICollectionViewDataSource,TamCalendarCollectionViewCellDelegate,TamLeftAndRightViewDelegate,UIPickerViewDelegate,UIPickerViewDataSource>
 
-@property(nonatomic,strong)UICollectionView *collectionView;
-@property(nonatomic,strong)UIPickerView *pickerView;
+@property(nonatomic,weak)UICollectionView *collectionView;
+@property(nonatomic,weak)UIPickerView *pickerView;
 
-@property(nonatomic,strong)UIButton *yearBtn;
-@property(nonatomic,strong)UIButton *monthBtn;
-@property(nonatomic,strong)TamLeftAndRightView *leftAndRightView;
+@property(nonatomic,weak)UIButton *yearBtn;
+@property(nonatomic,weak)UIButton *monthBtn;
+@property(nonatomic,weak)TamLeftAndRightView *leftAndRightView;
 
 @property (strong, nonatomic) NSMutableArray *dayModelArray;
 @property (strong, nonatomic) NSDate *tempDate;//当前页面的日期
